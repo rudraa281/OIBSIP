@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComfortPlace</title>
+    <style type="text/css">
+        *{padding: 0; margin: 0; box-sizing:  border-box;}
+    header{
+        width: 100%;
+        height: 100vh;
+        background: url('home.jpg');
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+        background-color:bisque;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        
+    }
+
+    .icon{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .menu{
+       
+        color: white;
+        justify-content: space-around;
+        word-spacing: 25px;
+    }
+    div a{
+        text-decoration: none;
+        color: black;
+    }
+    div a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .info{
+        word-spacing: 25px;
+     }
+     .main{
+        margin: 40px 40px;
+        font-weight: bold;
+        color: black;
+        font-size: 30px;
+        letter-spacing: 2px;
+     }
+     .in{
+        margin: 20px;
+        width: 40%;
+         height: 50px;
+         border-radius: 20px;
+         font-size: 20px;
+         border-color: black;
+     }
+     button{
+        margin: 20px;
+        width: 10%;
+         height: 50px;
+         border-radius: 20px;
+         font-size: 20px;
+         border-color: black;
+         font-weight: bold;
+         background-color: rgb(99, 99, 223);
+         color: white;
+     }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+     <div class="icon">ComfortPlace</div>
+     <div class="menu">
+        <a href="" >Selling</a>
+        <a href="">Buying</a>
+        <a href="">Estimate</a>
+        <a href="">Loan</a>
+     </div>
+     <div class="info">
+        <a href="">About</a>
+        <a href="#">selling</a>
+        <a href="">Agents</a>
+        <a href="">SignIn</a>
+     </div>
+     </nav>
+     <div class="main">
+        Find out what your home is really worth<br>
+        <input class="in" type="text" placeholder="Enter your address here..">
+        <button>Get Estimate</button>
+    </div>
+    </header>
+</body>
+</html>
